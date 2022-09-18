@@ -1,0 +1,184 @@
+/* =================================== */
+/*                Style css            */
+/* ------------------------------------*/
+/* 
+    [1] global css
+    [2] header css
+    [3] hero section
+
+*/
+/* ----------------------------------- */
+/*            END Style css            */
+/* =================================== */
+
+
+
+/* =================================== */
+/*            [1] Global css           */
+/* ----------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --header-text-color: #242f51;
+    --text-color: #616368;
+    --accent-color: #2500f9;
+    --border-color: #ebebeb;
+
+    --light-gray: #e2eaed;
+    --dark-blue: #09142e;
+    --yellow: #feaa25;
+    --pink: #f55767;
+    --pink-bg: #ffecef;
+    --blue: #2563ff;
+    --blue-bg: #f4f4ff;
+    --green: #40975f;
+    --green-bg: #e4ffee;
+
+    --pink-bg-second: #e4ffee;
+    --light-blue-bg: #eaf9ff;
+    --yellow-bg: #fff6d3;
+    --violet-bg: #f4f4ff;
+    --orange-bg: #fdeee4;
+}
+
+.container{ 
+    width: 100%;
+    max-width: 1160px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--accent-color);
+    font-size: 16px;
+    font-weight: 800;
+    padding: 16px 40px;
+    border-radius: 62px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--header-text-color);
+    line-height: 120%;
+    padding: 20px 0;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+/* ----------------------------------- */
+/*           END Global css            */
+/* =================================== */
+
+
+/* =================================== */
+/*            [2] Header css           */
+/* =================================== */
+
+header{
+    width: 100%;
+}
+
+.navigation{
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-link{
+    color: var(--header-text-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu-item-logo{
+    margin-right: 330px;
+}
+
+.menu-item-btn{
+    margin-left: 20px;
+}
+/* =================================== */
+/*            END Header css          */
+/* =================================== */
+
+/* =================================== */
+/*            [1] Hero section         */
+/* =================================== */
+
+.hero{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    background: url("/images/city-figures-bg.png") no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.hero-icon{
+    display: flex;
+    width: fit-content;
+    background-color: #e2eaed;
+    border-radius: 20px;
+    align-items: center;
+}
+.hero-icon-img{
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 100%;
+    background-color: var(--yellow);
+}
+
+.hero-icon-text{
+    font-size: 18px;
+    padding: 0 40px 0 10px;
+}
+
+.hero > .container{
+    max-width: 1010px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-links{
+    margin: 60px 0;
+    list-style: none;
+    display: flex;
+}
+
+.hero-link{
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero-item{
+    padding: 0 30px;
+}
+/* =================================== */
+/*            END Hero section         */
+/* =================================== */
